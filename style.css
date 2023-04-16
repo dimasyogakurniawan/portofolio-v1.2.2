@@ -1,0 +1,392 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+body {
+    
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 2.3rem;
+    background: white;
+    box-shadow: 2px 2px 4px rgba(1, 1, 3, 0.1);
+    top: 0;
+    position: fixed;
+    z-index: 9999999;
+}
+.jam p{
+    display: flex;
+    color: orange;
+    font-family: 'Dongle', sans-serif;;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  padding: 0 3%;
+  font-family: 'DynaPuff', cursive;
+  color: orange;
+  
+}
+.bhss {
+    display: flex;
+    margin: 0 75%;
+}
+.bhss a{
+    display: flex;
+    color: orange;
+    font-family: 'DynaPuff', cursive;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 4%;
+    color: orange;
+    
+}
+.navbar a:hover {
+    color: red;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 15.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 8% 0;
+}
+
+
+.content-text {
+    width: 50%;
+    height: 20.5rem;
+    
+}
+.content-text h1 {
+    padding: 0 10%;
+    font-family: 'DynaPuff', cursive;
+}
+.content-text p{
+    padding: 2% 15%;
+    text-align: left;
+    color: orange;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.6rem;
+}
+.content-text .content-isi {
+    margin: 20% 0;
+}
+.btn {
+    width: 25%;
+    height: 2.1rem;
+    border: 2px solid orange;
+    margin: 0 15%;
+    background: orange;
+    border-radius: 5%;
+    transition: 1.2s;
+    color: white;
+    
+}
+.btn:hover {
+    color: black;
+    background: red;
+    border: 2px solid red;
+}
+.content-a a{
+    color: orange;
+    position: absolute;
+    margin: 0.5% -7%;
+}
+.content-a a:hover {
+    color: black;
+}
+.content-img {
+    width: 50%;
+    height: 20.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.isi-img {
+    width: 55%;
+    height: 15.2rem;
+    background-image: url('img/icon1.png');
+    background-size: cover;
+    background-position: center;
+}
+.aubot {
+    width: 100%;
+    height: 18.5rem;
+    background: orange;
+    color: white;
+    
+}
+
+.aubot .aubot-judul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DynaPuff', cursive;
+    font-size: 3.2rem;
+}
+.icon {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    margin: 18% 0;
+}
+.icon a{
+    color: white;
+    padding: 0 2%;
+    
+}
+
+
+
+#elementEl {
+    font-size: 1.2rem;
+    color: darkorange;
+}
+
+#elementEl::after {
+  content: '|';
+  margin-left: 5px;
+  animation: blink 0.3s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.tekno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tekno p{
+    color: white;
+    padding: 0 1.2%;
+    font-weight: bold;
+}
+.tekno #html:hover {
+    color: darkorange;
+}
+.tekno #css:hover {
+    color: blue;
+}
+.tekno #javascript:hover {
+    color: yellow;
+}
+.from {
+    display: none;
+}
+@media (max-width: 1366px) {
+    
+}
+@media (max-width: 786px) {
+    .container {
+    display: inline;
+    width: 100%;
+    height: 10.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 8% 0;
+}
+.bhss {
+    display: flex;
+    margin: 0 55%;
+}
+.bhss a{
+    display: flex;
+    color: orange;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+.navbar a:hover {
+    color: orange;
+}
+.content-text {
+    width: 50%;
+    height: 20.5rem;
+    position: relative;
+    margin: 50% auto;
+}
+.content-img {
+    width: 50%;
+    height: 15.5rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: -170% 25%;
+    position: absolute;
+    
+}
+.isi-img {
+    
+    width: 55%;
+    height: 10.2rem;
+    background-size: cover;
+    background-position: center;
+}
+.jam p{
+    display: flex;
+    color: orange;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 0;
+}
+#moon {
+    display: none;
+}
+.content-text h1 {
+    font-family: 'DynaPuff', cursive;
+    
+}
+.content-text p{
+    font-family: 'Dongle', sans-serif;
+    padding: 2% auto;
+    color: orange;
+    font-size: 0.2rem;
+    text-align: center;
+}
+
+
+.aubot {
+    width: 100%;
+    height: 15.5rem;
+    position: absolute;
+    margin: -90% 0;
+    
+}
+.aubot .aubot-judul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DynaPuff', cursive;
+    font-size: 2.2rem;
+}
+.btn {
+    display: none;
+}
+.icon {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    margin: 5% 0;
+}
+.icon a{
+    color: white;
+    padding: 0 2%;
+    
+}
+
+#elementEl {
+    font-size: 1rem;
+    padding: 10% auto;
+}
+}
+@media (max-width: 450px) {
+     .container {
+    display: inline;
+    width: 100%;
+    height: 10.5rem;
+    justify-content: center;
+    align-items: center;
+    margin: 8% 0;
+}
+.bhss a{
+    display: flex;
+    color: orange;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+.navbar a:hover {
+    color: orange;
+}
+
+.content-text {
+    width: 85%;
+    height: 20.5rem;
+    position: relative;
+    margin: 50% auto;
+}
+.content-img {
+    width: 50%;
+    height: 15.5rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: -35% 25%;
+    position: absolute;
+}
+.isi-img {
+    width: 55%;
+    height: 10.2rem;
+    background-size: cover;
+    background-position: center;
+}
+.content-text h1 {
+    font-family: 'DynaPuff', cursive;
+    
+}
+.content-text p{
+    font-family: 'Dongle', sans-serif;
+    padding: 2% 0;
+    color: orange;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.aubot {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: -90% 0;
+    
+}
+.aubot .aubot-judul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DynaPuff', cursive;
+    font-size: 2.2rem;
+}
+.btn {
+    display: none;
+}
+.content-a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#elementEl {
+    font-size: 1rem;
+    padding: 10% auto;
+}
+}

@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 2.3rem;
+    background: white;
+    box-shadow: 2px 2px 4px rgba(1, 1, 3, 0.1);
+    top: 0;
+    position: fixed;
+    z-index: 9999999;
+}
+.navbar .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  padding: 0 3%;
+  font-family: 'DynaPuff', cursive;
+  color: orange;
+  
+}
+.bhss {
+    display: flex;
+    margin: 0 75%;
+}
+.bhss a{
+    display: flex;
+    color: orange;
+    font-family: 'DynaPuff', cursive;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 0 4%;
+    color: orange;
+    
+}
+.navbar a:hover {
+    color: red;
+}
+.container {
+    width: 100%;
+    height: 25.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% auto;
+}
+.form {
+    width: 45%;
+    height: 22rem;
+    background: orange;
+    box-shadow: 2px 3px 3px 2px rgba(1, 1, 3, 0.3);
+    display: block
+}
+.form a{
+    margin: 0% 45.9%;
+    color: white;
+}
+.form h1{
+    color: white;
+    font-family: 'DynaPuff', cursive;
+    text-align: center;
+    font-size: 1.3rem;
+    
+}
+.form-input .isi-box {
+    margin: 10% 0;
+}
+.isi-box input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: 5% auto;
+     width: 45%;
+     height: 35px;
+     background: transparent;
+     border: 1px solid white;
+     color: white;
+}
+.btn{
+    width: 45%;
+    height: 25px;
+    margin: 0 27%;
+    border: 1px solid white;
+    background: white;
+    color: black;
+    text-align: center;
+}
+
+@media (max-width: 1366px) {
+    
+}
+@media (max-width: 786px) {
+    .bhss {
+    display: flex;
+    margin: 0 55%;
+}
+.bhss a{
+    display: flex;
+    color: orange;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+.navbar a:hover {
+    color: orange;
+    
+}.container {
+    width: 100%;
+    height: 25.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+}
+
+.isi-box input{
+     margin: 3% 2%;
+     margin: 2% auto;
+     width: 55%;
+     height: 20px;
+}
+    
+}
+@media (max-width: 450px) {
+    .bhss {
+    display: flex;
+    margin: 0 55%;
+}
+.bhss a{
+    display: flex;
+    color: orange;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    
+}
+.navbar a:hover {
+    color: orange;
+}
+}
